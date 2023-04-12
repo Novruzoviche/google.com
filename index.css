@@ -56,7 +56,6 @@
     outline: none;
     padding-left: 25px;
     background: url("./src/icon/search.svg") no-repeat left;
-
     background-size: 20px;
 }
 .inputbar:hover{
@@ -117,4 +116,50 @@
 }
 .formclass{
     margin-top: 20px;
+}
+.lng{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: gray;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    flex-wrap: wrap;
+    
+}
+.content > ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.content > ul > li > a{
+    text-decoration: none;
+    color: #70757a;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+.content > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;;
+   }
+
+.line{
+    height:2px;
+    border-width:0;
+    color:#dfdfdf;
+    background-color:#dfdfdf;
+}
+.turkey{
+    color: #70757a;
+    font: 14px/27px Roboto,Arial,sans-serif;
+    margin-left: 38px;
 }
