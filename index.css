@@ -138,7 +138,7 @@
 .content > ul > li > a{
     text-decoration: none;
     color: #70757a;
-    font: 13px/27px Roboto,Arial,sans-serif;
+    font: 14px/27px Roboto,Arial,sans-serif;
 }
 .content > ul > li > a:hover{
     text-decoration: underline;
